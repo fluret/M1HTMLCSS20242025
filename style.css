@@ -2,3 +2,29 @@ body {
     margin: auto;
     color: #FFF;
 }
+
+#banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url(back.png) no-repeat fixed;
+    background-size: cover;
+    height: 600px;
+    padding-top: 150px;
+}
+
+#banner h1 {
+    font-size: 50px;
+    background-color: rgba(33, 124, 137, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#banner p {
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
